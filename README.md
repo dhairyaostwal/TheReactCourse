@@ -6,3 +6,7 @@
 2. Creating a **TimeScheduler** app
 
 ## ✅ react-components
+
+1. Diff. components in form of `.jsx` files
+2. Combining all `.jsx` files into `app.jsx`
+3. Importing one big `<App />` component in our `index.js` file
