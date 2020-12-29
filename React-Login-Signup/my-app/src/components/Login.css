@@ -1,0 +1,18 @@
+.cardLogin{
+    text-align: center;
+    background-color: bisque;
+    width: 50rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+}
+
+.alterSuggestion{
+    font-size: 1rem;
+}
+
+.heading{
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
