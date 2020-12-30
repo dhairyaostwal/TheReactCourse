@@ -1,6 +1,9 @@
 import React from 'react';
+// import {Link} from 'react-router';
+import {Route} from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './Login.css'
+import Login from './Login';
 
 function Signup() {
     return (
@@ -13,7 +16,7 @@ function Signup() {
                     </div>
 
                         <div className="col-sm input-group mb-3">
-                            <input id="username"  placeholder="Enter your username"></input>
+                            <input id="username" placeholder="Enter your username"></input>
                         </div>
                     </div>
 
@@ -38,7 +41,8 @@ function Signup() {
                         <div className="text-center">
                             <button className="btn btn-primary" type="submit">Register</button>
                         </div>
-                        <a href="#">Already have an account? Login here</a>
+                        <Route exact path='/login' component={Login}>Already have an account? Login here</Route>
+                        {/* <Link to={"/Login"}></Link> */}
                     </div>
 
                 </div>

@@ -1,4 +1,7 @@
 import React from 'react';
+// import { Link } from 'react-router';
+import Signup from './Signup';
+import { Route } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './Login.css'
 
@@ -36,7 +39,8 @@ function Login() {
                         <div className="text-center">
                             <button className="btn btn-primary" type="submit" onClick={checkCred}>Login</button>
                         </div>
-                        <a className="alterSuggestion">New to Airprobe? Sign-up Now</a>
+
+                        <Route exact path='/signup' component={Signup}>New to Airprobe? Sign-up Now</Route>
                     </div>
 
                 </div>
